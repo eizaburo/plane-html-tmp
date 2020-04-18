@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1 id="main-title">Sample Web Form</h1>
+        </header>
+        <main>
+            <section class="contact-form">
+                <h2>お問合せフォーム</h2>
+                <div class="form-container">
+                    <form method="post" action="confirm.php">
+                        <div class="form-group">
+                            <label>氏名</label>
+                            <input type="text" name="name" class="form-item">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" name="email" class="form-item">
+                        </div>
+                        <div class="form-group">
+                            <label>性別</label>
+                            男性：<input type="radio" name="gender" value="男性">
+                            女性：<input type="radio" name="gender" value="女性">
+                        </div>
+                        <div class="form-group">
+                            <label>お問合せ内容</label>
+                            <textarea name="message" class="form-item"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">確認へ</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            test corporation
+        </footer>
+    </body>
+</html>

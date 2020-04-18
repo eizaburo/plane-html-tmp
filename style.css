@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: #333;
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 8px 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: #666;
+}
+
+header{
+    height: 120px;
+    background: url(./wall.jpg) center/cover;
+}
+
+#main-title{
+    margin: 0;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.contact-form{
+    margin-bottom: 120px;
+}
+
+main h2{
+    text-align: center;
+    margin: 32px 0;
+}
+
+.form-container{
+    background: #eee;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+}
+
+
+.form-group{
+    padding: 5px;
+}
+
+input[type='text']{
+    width: 180px;
+    height: 1.8em;
+}
+
+textarea{
+    width: 180px;
+    vertical-align: top;
+    height: 5em;
+}
+
+button{
+    margin-left: 125px;
+}
+
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    height: 50vh;
+    padding-top: 32px;
+}
