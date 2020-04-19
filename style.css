@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Verdana,sans-serif;
 }
 
 nav{
@@ -27,24 +28,25 @@ nav a:hover{
 }
 
 header{
-    height: 120px;
+    height: 200px;
     background: url(./wall.jpg) center/cover;
 }
 
 #main-title{
     margin: 0;
-    padding: 30px;
+    padding: 50px;
     font-size: 24px;
     font-weight: normal;
 }
 
 .contact-form{
-    margin-bottom: 120px;
+    margin-bottom: 64px;
 }
 
 main h2{
     text-align: center;
     margin: 32px 0;
+    font-weight: normal;
 }
 
 .form-container{
@@ -62,27 +64,35 @@ label{
 
 
 .form-group{
-    padding: 5px;
+    padding: 10px;
 }
 
 input[type='text']{
     width: 180px;
     height: 1.8em;
+    border: solid 1px #ccc;
+    border-radius: 3px;
 }
 
 textarea{
     width: 180px;
     vertical-align: top;
     height: 5em;
+    border: solid 1px #ccc;
+    border-radius: 3px;
 }
 
 button{
     margin-left: 125px;
 }
 
+button:hover{
+    background: #666;
+}
+
 
 footer{
-    background: #333;
+    background:#333;
     color: #fff;
     text-align: center;
     height: 50vh;
