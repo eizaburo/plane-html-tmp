@@ -98,3 +98,23 @@ footer{
     height: 50vh;
     padding-top: 32px;
 }
+
+@media screen and (max-width:640px){
+    .form-container{
+        background: #fff;
+        width: 100%;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    button{
+        border: solid 1px #ccc;
+    }
+
+    header{
+        display: none;
+    }
+
+}
